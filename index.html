@@ -1,1 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Inquiry Portal</title>
+</head>
+<body>
+    <h1>Bello Feranmi Consult</h1>
+    <p>Your trusted partner for professional consulting services.</p>
+    <hr>
 
+    <h2>HTML Tutorial for Beginners</h2>
+
+   <iframe 
+    width="500"
+    height="280"
+    title="HTML Tutorial"
+    allowfullscreen
+    src="https://www.youtube.com/embed/FQdaUv95mR8"
+    frameborder="1">
+   </iframe>
+    <h3>About This Video</h3>
+    <p>
+     This video gives an overview of the consulting services we offer.
+     It covers academic advisory, business strategy and digital services.
+     Please watch before filling the form below.
+    </p>
+    <br><br>
+
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Personal Information</legend>
+
+            <label for="name">Full Name</label>
+            <br>
+            <input type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Bello Feranmi" 
+            required>
+            <br><br>
+
+            <label for="email">Email</label>
+            <br>
+            <input type="email" id="email" 
+            name="email" 
+            placeholder="feranmibelo8@gmail.com" 
+            required>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Newsletter</legend>
+
+            <input type="checkbox" 
+            id="newsletter"
+             name="newsletter"
+             value="yes">
+
+            <label for="newsletter">Subscribe to our Newsletter</label>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Inquiry Details</legend>
+
+            <label for="inquiry-type">Type of Inquiry</label>
+            <br>
+            <select name="inquiry-type" id="inquiry-type">
+                <option value="">--select--</option>
+                <option value="General Inquiry">General Inquiry</option>
+                <option value="Partnership">Partnership</option>
+                <option value="Support">Support</option>
+            </select>
+            <br><br>
+
+            <label for="mesaage">Message</label>
+            <br>
+            <textarea name="message" 
+            id="mesaage" 
+            name="message"
+            placeholder="message"
+            rows="6"
+            cols="40">
+        </textarea>
+        <br><br>
+        </fieldset>
+
+        <br>
+        <button type="submit">Submit</button>
+        <br><br>
+    </form>
+
+    
+</body>
+</html>
